@@ -1,9 +1,9 @@
 /* ----- Google Fonts import link-----*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
 
 /* ------Body Preset------*/
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
 /*----Styling below applies to Hero Section*/
@@ -16,4 +16,46 @@ body{
 #mouse_click {
   padding-top: 10%;
 }
-.namee{}
+.namee {
+  width: 30vw;
+  color: white;
+}
+.txt {
+  width: 20vw;
+  height: 30vh;
+  color: white;
+}
+label {
+  color: white;
+}
+.ftr {
+  color: rgba(54, 49, 49, 0.781);
+  font-weight: bold;
+}
+.what1 {
+  display: none;
+}
+.what2 {
+  display: none;
+}
+.what3 {
+  display: none;
+}
+.card:hover {
+  opacity: 0.5;
+}
+.img1,
+.img2,
+.img3 {
+  margin-left: 150px;
+}
+.titl {
+  margin-right: 30px;
+  margin-top: 10px;
+}
+.card {
+  border-radius: 0px;
+}
+.card-title {
+  display: none;
+}
