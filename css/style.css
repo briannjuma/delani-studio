@@ -59,3 +59,6 @@ label {
 .card-title {
   display: none;
 }
+.mt-5 {
+  padding-bottom: 3%;
+}
