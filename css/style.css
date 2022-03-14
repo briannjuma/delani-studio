@@ -1,3 +1,11 @@
+/* ----- Google Fonts import link-----*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+/* ------Body Preset------*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 /*----Styling below applies to Hero Section*/
 .hero {
   color: white;
