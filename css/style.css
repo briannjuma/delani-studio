@@ -1,6 +1,11 @@
+/*----Styling below applies to Hero Section*/
 .hero {
   color: white;
 }
-#mouse_click {
-  margin-top: 40%;
+.hero h1 {
+  font-weight: 600;
 }
+#mouse_click {
+  padding-top: 10%;
+}
+.namee{}
