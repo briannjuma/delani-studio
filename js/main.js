@@ -80,3 +80,26 @@ $(document).ready(function () {
     $(".card-title8").slideToggle();
   });
 });
+
+function send() {
+  var userName = document.getElementById("form6Example1").value;
+  var email = document.getElementById("form6Example2").value;
+  var userInput = document.getElementById("form6Example7").value;
+
+  if (userName !== "" && email !== "" && userInput !== "") {
+    alert(
+      "Hi " +
+        userName +
+        ", We have received your message via this email " +
+        email +
+        " and will get back to you. For direct inquiries, call us  at: Tel 07000000 "
+    );
+    var userName = "";
+    var email = "";
+    var userInput = "";
+  } else {
+    alert("Kindly fill in the form");
+
+    reset();
+  }
+}
